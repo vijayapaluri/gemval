@@ -8,3 +8,5 @@ seaborn== 0.11.2
 streamlit==0.86.0
 statsmodels==0.13.2
 tabulate==0.8.9
+selenium==4.1.3
+webdriver-manager==3.5.4
