@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 from statsmodels.tsa.stattools import adfuller
 from statsmodels.tsa.seasonal import seasonal_decompose
-from statsmodels.tsa.arima_model import ARIMA
+from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 from statsmodels.graphics.tsaplots import plot_acf
 from statsmodels.graphics.tsaplots import plot_pacf
@@ -19,8 +19,8 @@ from statsmodels.tsa.holtwinters import ExponentialSmoothing
 import statsmodels.formula.api as smf
 import statsmodels.api as sm
 from pandas.plotting import register_matplotlib_converters
-from tabulate import tabulate
-register_matplotlib_converters()
+
+
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_absolute_error,mean_squared_error
