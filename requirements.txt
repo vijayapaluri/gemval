@@ -6,7 +6,7 @@ matplotlib== 3.5.1
 scikit-learn==1.0.2
 keras==2.8.0
 Keras-Preprocessing==1.1.2
-tensorflow-cpu
+tensorflow-cpu==2.0
 streamlit
 statsmodels==0.13.2
 tabulate==0.8.9
